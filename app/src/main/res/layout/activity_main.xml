@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/diorfont"
+        android:text="DIOR"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_gravity="center"
+        android:fontFamily="@font/popsb"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="   MEN'S FASHION"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <!-- Sepatu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/backdepan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/ivbacksepatu"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/backsepatu" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnbacksepatu"
+                android:text="SHOE'S"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvobold"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Baju -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/backdepan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/ivbackbaju"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/backbaju" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnbackbaju"
+                android:text="MENSWEAR"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvobold"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Kacamata -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/backdepan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/ivbackkacamata"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/backkacamata" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnbackkacamata"
+                android:text="SUNGLASSES"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvobold"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

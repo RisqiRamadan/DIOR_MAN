@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SepatuActivity">
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/diorfont"
+        android:text="MEN'S FASHION"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_gravity="center"
+        android:fontFamily="@font/popsb"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="   SHOE'S"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- SEPATU 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsepatu1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu1"
+                            android:onClick="onImageClick"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvsepatu1"
+                        android:gravity="center"
+                        android:text="Buffalo Lace-Up Boot"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensisepatu1"
+                        android:gravity="center"
+                        android:text="Black Smooth Calfskin Debossed with Oblique "
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsisepatu1"
+                        android:gravity="left|right|center"
+                        android:text="New for Spring 2024, the Dior Buffalo lace-up boot combines iconoclastic elements with the House's couture aesthetic. The shoe will add a modern touch to all seasonal looks."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargasepatu1"
+                        android:gravity="center"
+                        android:text="Rp. 29.000.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- SEPATU 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsepatu2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu2" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamasepatu2"
+                        android:gravity="center"
+                        android:text="B57 Mid-Top Sneaker"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensisepatu2"
+                        android:gravity="center"
+                        android:text="Blue and Cream Smooth Calfskin and Beige Suede"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsisepatu2"
+                        android:gravity="left|right|center"
+                        android:text="New for Spring 2024, the B57 mid-top sneaker reframes the basketball shoe and is already a House essential. Completed by a two-tone rubber sole, the sneaker will elevate any favorite outfit."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargasepatu2"
+                        android:gravity="center"
+                        android:text="Rp. 24.000.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- SEPATU 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsepatu3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu3" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamasepatu3"
+                        android:gravity="center"
+                        android:text="B9S Skater Sneaker"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensisepatu3"
+                        android:gravity="center"
+                        android:text="Beige Cannage Kumo Leather"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsisepatu3"
+                        android:gravity="left|right|center"
+                        android:text="The B9S skater sneaker is inspired by skater codes and the House's couture spirit. Crafted in beige Cannage Kumo leather, it offers a quilted version of the hallmark motif. Crafted in beige Cannage Kumo leather, it offers a quilted version of the hallmark motif."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargasepatu3"
+                        android:gravity="center"
+                        android:text="Rp. 43.000.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- SEPATU 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsepatu4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu4" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamasepatu4"
+                        android:gravity="center"
+                        android:text="Dior Buffalo Loafer"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensisepatu4"
+                        android:gravity="center"
+                        android:text="Black Cannage Kumo Leather"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsisepatu4"
+                        android:gravity="left|right|center"
+                        android:text="The Dior Buffalo loafer stands out with its modern appeal. Crafted in black Cannage Kumo leather, it offers a quilted version of the hallmark motif, while the chunky rubber sole provides a new take on the crepe sole."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargasepatu4"
+                        android:gravity="center"
+                        android:text="Rp. 28.000.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- SEPATU 5 -->
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivsepatu5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu5" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamasepatu5"
+                        android:gravity="center"
+                        android:text="Dior Granville Loafer"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensisepatu5"
+                        android:gravity="center"
+                        android:text="Brown suede with brown and beige Oblique jacquard"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsisepatu5"
+                        android:gravity="left|right|center"
+                        android:text="The Dior Granville loafer offers a relaxed version of a dress shoe. Crafted in luxurious and ultra-soft brown suede, the style is adorned with a brown and beige Dior Oblique jacquard insert on the vamp. "
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargasepatu5"
+                        android:gravity="center"
+                        android:text="Rp. 20.000.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

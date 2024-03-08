@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KacamataActivity">
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/diorfont"
+        android:text="MEN'S FASHION"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_gravity="center"
+        android:fontFamily="@font/popsb"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="   SUNGLASSES"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- KACAMATA 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivkacamata1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kacamata1" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/kacamata1"
+                        android:gravity="center"
+                        android:text="Dior3D S1I"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensikacamata1"
+                        android:gravity="center"
+                        android:text="Khaki Rectangular Sunglasses"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsikacamata1"
+                        android:gravity="left|right|center"
+                        android:text="As seen at the Spring-Summer 2024 fashion show, the Dior3D S1I rectangular sunglasses stand out with an innovative design. Enhanced by 3D printing technology, the khaki openwork frame features graphic Cannage lines and a metal Dior signature on the temples."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargakacamata1"
+                        android:gravity="center"
+                        android:text="Rp. 9.900.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- KACAMATA 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivkacamata2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kacamata2" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamakacamata2"
+                        android:gravity="center"
+                        android:text="NeoDior S4U"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensikacamata2"
+                        android:gravity="center"
+                        android:text="Gray Rectangular Sunglasses"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsikacamata2"
+                        android:gravity="left|right|center"
+                        android:text="The NeoDior S4U sunglasses redefine House codes of modern elegance. The gunmetal rectangular frame showcases delicate guilloché that revisits the hallmark Cannage motif. The gray lenses adorned with CD details accentuate the contemporary aesthetic."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargakacamata2"
+                        android:gravity="center"
+                        android:text="Rp. 10.500.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- KACAMATA 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivkacamata3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kacamata3" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamakacamata3"
+                        android:gravity="center"
+                        android:text="CD Diamond M1U"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensikacamata3"
+                        android:gravity="center"
+                        android:text="Transparent Beige Mask Sunglasses"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsikacamata3"
+                        android:gravity="left|right|center"
+                        android:text="The CD Diamond M1U mask sunglasses stand out with a bold aesthetic. The transparent beige acetate frame has temples engraved with the CD Diamond motif, enhanced by a play of transparency. The style features interchangeable lenses."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargakacamata3"
+                        android:gravity="center"
+                        android:text="Rp. 11.500.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- KACAMATA 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivkacamata4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kacamata4" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamakacamata4"
+                        android:gravity="center"
+                        android:text="CD Diamond S6F"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensikacamata4"
+                        android:gravity="center"
+                        android:text="Transparent Green Square Sunglasses"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsikacamata4"
+                        android:gravity="left|right|center"
+                        android:text="The CD Diamond S6F sunglasses enhance the line with a square flat top form featuring contemporary appeal.The CD Diamond interior hinge in gold-finish metal completes the tailoring-inspired sunglasses."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargakacamata4"
+                        android:gravity="center"
+                        android:text="Rp. 11.800.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- KACAMATA 5 -->
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivkacamata5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kacamata5" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/tvnamakacamata5"
+                        android:gravity="center"
+                        android:text="DiorBlackSuit S10I"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvreferensikacamata5"
+                        android:gravity="center"
+                        android:text="Brown Tortoiseshell-Effect Rectangular Sunglasses"
+                        android:textColor="@color/Abu2"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btndeskripsikacamata5"
+                        android:gravity="left|right|center"
+                        android:text="The DiorBlackSuit S10I sunglasses are distinguished by the contemporary appeal of the rectangular shape. The translucent beige and brown tortoiseshell-effect acetate frame is completed by brown lenses."
+                        android:textColor="@color/Abu1"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="8.5dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargakacamata5"
+                        android:gravity="center"
+                        android:text="Rp. 7.460.000,00"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/arvobold"
+                        android:textSize="14dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

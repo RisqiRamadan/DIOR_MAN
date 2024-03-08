@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BajuActivity">
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/diorfont"
+        android:text="MEN'S FASHION"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@color/PrimaryColor"
+        android:layout_gravity="center"
+        android:fontFamily="@font/popsb"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="   MENSWEAR"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- BAJU 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbaju1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju1" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabaju1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Bobby Sweater"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibaju1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Blue Cashmere Jacquard"
+                        android:textColor="@color/Abu2"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibaju1"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="left|right|center"
+                        android:text="New for Summer 2024, the sweater pays tribute to Mr. Dior's pet, Crafted in blue cashmere jacquard, it is embellished with a Bobby patch. The sweater can be worn with any casual outfit."
+                        android:textColor="@color/Abu1"
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabaju1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Rp. 41.000.000,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BAJU 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbaju2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju2" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabaju2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="CD Relaxed-Fit T-Shirt"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibaju2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Beige Organic Cotton Jersey"
+                        android:textColor="@color/Abu2"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibaju2"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="left|right|center"
+                        android:text="New for Summer 2024, the T-shirt features a classic silhouette with a sporty style. The T-shirt can be styled with jeans or track pants to create different casual looks."
+                        android:textColor="@color/Abu1"
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabaju2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Rp. 20.000.000,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BAJU 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbaju3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju3" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabaju3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Coach Jacket"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibaju3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Beige Cotton Denim"
+                        android:textColor="@color/Abu2"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibaju3"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="left|right|center"
+                        android:text="New for Summer 2024, the coach jacket offers a casual look with a modern touch. Crafted in beige cotton denim, it features the tonal Dior Charm signature, a reference to an iconic House signature."
+                        android:textColor="@color/Abu1"
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabaju3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Rp. 30.000.000,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BAJU 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbaju4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju4" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabaju4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Long-Sleeved Polo Shirt"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibaju4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Red Cotton, Mohair and Alpaca Jacquard"
+                        android:textColor="@color/Abu2"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibaju4"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="left|right|center"
+                        android:text="New for Spring 2024 and part of the DIOR AND OTANI WORKSHOP collaboration, the long-sleeved polo shirt showcases the allover Dior Oblique jacquard and is further enhanced by one of the season's signature motifs. "
+                        android:textColor="@color/Abu1"
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabaju4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Rp. 40.000.000,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- BAJU 5 -->
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/backdepan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivbaju5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju5" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnamabaju5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Prince Wales-Breasted Jacket"
+                        android:textColor="@color/black"
+                        android:textSize="13.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvreferensibaju5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Gray Wool Canvas"
+                        android:textColor="@color/Abu2"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btndeskripsibaju5"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="left|right|center"
+                        android:text="Crafted in gray wool canvas, they are embellished with Mr. Dior's beloved Prince of Wales motif. The design has peak lapels adorned with a removable CD Icon pin. Completed by a chest button placket, the jacket can be coordinated with any pants from Modern Tailoring."
+                        android:textColor="@color/Abu1"
+                        android:textSize="8.5dp" />
+
+                    <TextView
+                        android:id="@+id/tvhargabaju5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:fontFamily="@font/arvobold"
+                        android:gravity="center"
+                        android:text="Rp. 50.000.000,00"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
